@@ -27,10 +27,20 @@ body {
   padding: 0;
 }
 
+.max {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 20em;
+}
+
+.sign-up {
+  color: white;
+}
+
 a,
 a:link,
 a:visited {
-  color: white;
+  color: #589ba4;
   text-decoration: none;
 }
 
@@ -95,9 +105,12 @@ a:visited {
 
 @media only screen and (min-width: 38em) {
 
-  .title,
-  .nav {
+  .title, {
     text-align: left;
+  }
+
+  .nav {
+    text-align: right;
   }
 
 }
