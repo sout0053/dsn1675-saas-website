@@ -96,6 +96,42 @@ a:visited {
   background-color: #efefef;
 }
 
+.banner {
+  background-image: url(../images/moon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 3.5em;
+}
+
+.banner-tour {
+  background-image: url(../images/holding-sun.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 3.5em;
+}
+
+.banner-pricing {
+  background-image: url(../images/48.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 3.5em;
+}
+
+.banner-signup {
+  background-image: url(../images/free.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 3.5em;
+}
+
 @media only screen and (min-width: 25em) {
 
   .nav {
