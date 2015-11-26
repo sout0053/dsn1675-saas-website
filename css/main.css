@@ -84,6 +84,10 @@ a:visited {
   color: #fff;
 }
 
+.blue-text {
+  color: #589ba4;
+}
+
 .section-dark {
   background-color: black;
 }
