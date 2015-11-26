@@ -126,6 +126,7 @@ a:focus {
 .banner {
   background-image: url(../images/moon.jpg);
   background-size: cover;
+  background-color: black;
   background-repeat: no-repeat;
   text-align: center;
   color: white;
@@ -135,6 +136,7 @@ a:focus {
 .banner-tour {
   background-image: url(../images/holding-sun.jpg);
   background-size: cover;
+  background-color: black;
   background-repeat: no-repeat;
   text-align: center;
   color: white;
@@ -144,6 +146,7 @@ a:focus {
 .banner-pricing {
   background-image: url(../images/48.jpg);
   background-size: cover;
+  background-color: black;
   background-repeat: no-repeat;
   text-align: center;
   color: white;
@@ -153,6 +156,7 @@ a:focus {
 .banner-signup {
   background-image: url(../images/free.jpg);
   background-size: cover;
+  background-color: black;
   background-repeat: no-repeat;
   text-align: center;
   color: white;
