@@ -45,7 +45,7 @@ body {
 a,
 a:link,
 a:visited {
-  color: #589ba4;
+  color: white;
   text-decoration: none;
 }
 
@@ -165,7 +165,6 @@ a:focus {
 
 .contrast {
   background-color: #1ad3f1;
-  color: white;
 }
 
 @media only screen and (min-width: 25em) {
