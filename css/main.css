@@ -163,6 +163,11 @@ a:focus {
   padding: 3.5em;
 }
 
+.contrast {
+  background-color: #1ad3f1;
+  color: white;
+}
+
 @media only screen and (min-width: 25em) {
 
   .nav {
