@@ -27,6 +27,16 @@ body {
   padding: 0;
 }
 
+/*h1 {
+  position: relative;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 1.5em auto;
+  width: 95%;
+  margin: 0 auto;
+}*/
+
 .amatic {
   font-family: 'Amatic SC', cursive;
 }
@@ -43,7 +53,7 @@ body {
 
 .hover:hover {
   color: white;
-  background-color: #1ad3f1;
+  background-color: #2587c8;
 }
 
 .sign-up {
@@ -87,7 +97,7 @@ a:visited {
 .nav a:focus,
 .nav a:active,
 .nav a.current {
-  background-color: #1ad3f1;
+  background-color: #2587c8;
 
   color: #fff;
 }
@@ -116,7 +126,7 @@ a:focus {
 }
 
 .blue-text {
-  color: #589ba4;
+  color: #2587c8;
 }
 
 .section-dark {
