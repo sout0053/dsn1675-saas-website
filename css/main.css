@@ -14,7 +14,7 @@ html {
 
   background-color: #fff;
 
-  font-family: sans-serif;
+  font-family: 'Oleo Script', cursive;
 }
 
 *, *:before, *:after {
@@ -25,6 +25,14 @@ html {
 body {
   margin: 0;
   padding: 0;
+}
+
+.amatic {
+  font-family: 'Amatic SC', cursive;
+}
+
+.varela {
+  font-family: 'Varela', sans-serif;
 }
 
 .max {
