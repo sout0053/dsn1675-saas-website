@@ -41,37 +41,98 @@
 <main role="main" id="main">
 
 <div class="grid">
-  <div class="unit gutter xs-1 s-1 m-1-2 l-1-2 pad-t-2 pad-b-1-2 text-center milli">
-    <h2>Signup</h2>
+  <div class="unit gutter xs-1 s-1 m-1 l-1 pad-t-2 pad-b-1-2 text-center milli">
 
-    <p>E-mail</p>
+  <form action="https://formspree.io/maxwell.southwood@outlook.com" method="post">
 
-    <p>Confirm E-mail</p>
+<div class="grid">
+    <div class="unit gutter xs-1 s-1 m-1-2 l-1-2 pad-t-2 pad-b-1-2 text-center milli">
 
-    <p>Username</p>
-  </div>
+      <h2>Signup</h2>
+
+    <div class="push-1-2">
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" required placeholder="youremail@hotmail.com">
+    </div>
+
+    <div class="push-1-2">
+      <label for="confirm-email">Confirm Email</label>
+      <input id="confirm-email" type="email" name="confirm-email" required placeholder="youremail@hotmail.com">
+    </div>
+
+    <div class="push-1-2">
+      <label for="username">Username</label>
+      <input id="username" required name="username">
+    </div>
+
+    <div class="push-1-2">
+      <label for="password">Password</label>
+      <input type="password" id="password" required name="password">
+    </div>
+
+    <div class="push-1-2">
+      <label for="confirm-password">Confirm Password</label>
+      <input type="confirm-password" id="password" required name="confirm-passwordfull-">
+    </div>
+</div>
   <div class="unit gutter xs-1 s-1 m-1-2 l-1-2 pad-t-2 pad-b-1-2 text-center milli">
     <h2>Credit Card Info</h2>
 
-    <p>Full name</p>
+      <div class="push">
+        <label for="full-name">Full Name</label>
+        <input id="full-name" required name="full-name">
+      </div>
 
-    <p>Country</p>
+      <div class="push">
+        <label for="country">Country</label>
+        <input id="country" required name="country">
+      </div>
 
-    <p>Address 1</p>
+      <div class="push">
+        <label for="address-1">Address 1</label>
+        <input id="address-1" required name="address-1">
+      </div>
 
-    <p>Address 2</p>
+      <div class="push">
+        <label for="address-2">Address 2</label>
+        <input id="address-2" required name="address-2">
+      </div>
 
-    <p>City</p>
+      <div class="push">
+        <label for="city">City</label>
+        <input id="city" required name="city">
+      </div>
 
-    <p>State, Province or Region</p>
+    <div class="push">
+      <label for="province">State, Province or Region</label>
+        <input id="province" list="province-list" required placeholder="Select state, province or region">
+          <datalist id="province-list">
+            <option value="Alberta">
+            <option value="Ontario">
+            <option value="Québec">
+            <option value="Nova Scotia">
+          </datalist>
+    </div>
 
-    <p>ZIP or Postal Code</p>
+      <div class="push">
+        <label for="zip-postal-code">ZIP or Postal Code</label>
+        <input id="zip-postal-code" required name="zip-postal-code">
+      </div>
 
-    <p>Phone number</p>
+    <div class="push">
+      <label for="telephone-number">Telephone Number</label>
+      <input type="tel" id="telephone-number" required name="telephone-number">
+    </div>
   </div>
+
   <div class="unit gutter xs-1 s-1 m-1 l-1 pad-b-1-2 text-center milli">
-    <a class="btn tera gutter hover island-1-2" href="#" aria-label="Submit your information">Submit</a>
+    <button type="submit" class="btn tera gutter hover island-1-2" href="#" aria-label="Submit your information">Send!</button>
   </div>
+
+  <input type="hidden" name="_next"
+    value="https://sout0053.github.io/forms-demo/thanks.html">
+</div>
+  </form>
 </div>
 </div>
 
