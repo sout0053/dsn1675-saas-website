@@ -133,6 +133,10 @@ a:focus {
   color: #2587c8;
 }
 
+.white-text {
+  color: white;
+}
+
 .section-dark {
   background-color: black;
 }
