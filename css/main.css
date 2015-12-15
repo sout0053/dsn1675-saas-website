@@ -39,49 +39,143 @@ html {
   font-family: 'Oleo Script', cursive;
 }
 
-*, *:before, *:after {box-sizing: inherit;}body {margin: 0;padding: 0;}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
-.oleo {font-family: 'Oleo Script', cursive;}.amatic {font-family: 'Amatic SC', cursive;}
+body {
+  margin: 0;
+  padding: 0;
+}
 
-.max {margin-left: auto;margin-right: auto;max-width: 20em;}
+.oleo {
+  font-family: 'Oleo Script', cursive;
+  }
 
-.hover:hover, .sign-up {color: white;background-color: #2587c8;}
+.amatic {
+  font-family: 'Amatic SC', cursive;
+}
+
+.max {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 20em;
+}
+
+.hover:hover, .sign-up {
+  color: white;
+  background-color: #2587c8;
+}
 
 a,
 a:link,
-a:visited {color: white;text-decoration: none;}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
 
-.img-flex {display: block;width: 100%;}
+.img-flex {
+  display: block;
+  width: 100%;
+}
 
-.title a {display: block;text-align: center;color: white;text-decoration: none;}
+.title a {
+  display: block;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
 
-.nav {padding: 0;list-style-type: none;display: block;}
+.nav {
+  padding: 0;
+  list-style-type: none;
+  display: block;
+}
 
 .nav a:hover,
 .nav a:focus,
 .nav a:active,
-.nav a.current {background-color: #2587c8;color: #fff;}
+.nav a.current {
+  background-color: #2587c8;
+  color: #fff;
+}
 
-a:focus {outline: 3px solid;}
+a:focus {
+  outline: 3px solid;
+}
 
-.skip-links {margin: 0;padding: 0;list-style-type: none;}.skip-links a {position: absolute;top: -3em;background-color: #000;color: #fff;padding: 0.5em 0.75em;font-weight: bold;}.skip-links a:focus {top: 0;}
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 
-.blue-text {color: #2587c8;}.white-text {color: white;}
+.skip-links a {
+  position: absolute;
+  top: -3em;
+  background-color: #000;
+  color: #fff;
+  padding: 0.5em 0.75em;
+  font-weight: bold;
+}
 
-.section-dark {background-color: black;}.section-mid {background-color: #e2e2e2;}.section {background-color: #efefef;}
+.skip-links a:focus {
+  top: 0;
+}
 
-.banner {background-image: url(../images/moon.jpg);background-size: cover;background-color: black;background-repeat: no-repeat;text-align: center;color: white;padding: 3.5em;}
+.blue-text {
+  color: #2587c8;
+}
 
-.contrast {background-color: #1ad3f1;}
+.white-text {
+  color: white;
+}
+
+.section-dark {
+  background-color: black;
+}
+
+.section-mid {
+  background-color: #e2e2e2;
+}
+.section {
+  background-color: #efefef;
+}
+
+.banner {
+  background-image: url(../images/moon.jpg);
+  background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 3.5em;
+}
+
+.contrast {
+  background-color: #1ad3f1;
+}
 
 @media only screen and (min-width: 25em) {
 
-  .nav {text-align: center;}.nav li {display: inline-block;}
+  .nav {
+    text-align: center;
+    }
+
+  .nav li {
+    display: inline-block;
+  }
 
 }
 
 @media only screen and (min-width: 38em) {
 
-  .title, {text-align: left;}.nav {text-align: right;}
+  .title, {
+    text-align: left;
+    }
+
+  .nav {
+    text-align: right;
+  }
 
 }
